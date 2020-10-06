@@ -127,6 +127,20 @@ img {
   color: #757575;
 }
 
+.mail {
+  align-items: center;
+}
+
+.mail:hover .header-icon,
+.tel:hover .header-icon {
+  fill: var(--accent-color);
+}
+
+.header-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 /* HERO */
 
 .hero {
@@ -137,7 +151,11 @@ img {
   text-align: center;
   background-size: cover;
   background-color: #c4c4c4;
-  background-image: url(../img/bg.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/bg.jpg);
 }
 /* 
 .hero .container{
@@ -151,6 +169,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #ffffff;
 
   padding-top: 200px;
 }
@@ -171,6 +190,8 @@ img {
   width: 200px;
   height: 50px;
   border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 
   margin-top: 30px;
   margin-bottom: 200px;
@@ -332,6 +353,23 @@ img {
 .social-icon {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
+}
+
+.social-list-link:hover {
+  background-color: var(--accent-color);
+}
+
+.social-list-link:hover .social-icon {
+  fill: #ffffff;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* CUSTOMERS */
@@ -342,6 +380,7 @@ img {
 /* FOOTER */
 .footer {
   background: #2f303a;
+  display: flex;
 }
 
 .footer .logo-link {
@@ -369,6 +408,43 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-right: 936px;
+  margin-top: 72px;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-link-footer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.footer-social-link:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-social-list:hover .social-icon-footer {
+  fill: #ffffff;
 }
 
 /* PORTFOLIO */
