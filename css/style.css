@@ -213,7 +213,7 @@ img {
 }
 
 .advantages-list-item:not(:last-child) {
-  margin-right: 55px;
+  margin-right: 30px;
 }
 
 .advantages-title {
