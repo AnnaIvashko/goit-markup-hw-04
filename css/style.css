@@ -264,7 +264,7 @@ img {
 }
 
 .direction .title {
-  margin-top: 94px;
+  /* margin-top: 94px; */
   margin-bottom: 50px;
 }
 
@@ -393,6 +393,10 @@ img {
   border-color: var(--accent-color);
   fill: var(--accent-color);
   cursor: pointer;
+}
+
+.customer-svg:hover {
+  fill: var(--accent-color);
 }
 
 .customer-svg {
