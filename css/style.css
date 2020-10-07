@@ -421,12 +421,17 @@ img {
 /* FOOTER */
 .footer {
   background: #2f303a;
+  /* display: flex; */
+}
+
+.footer .container {
   display: flex;
 }
 
-.left-footer {
+/* .left-footer {
   margin-left: 150px;
-}
+} */
+
 .footer .logo-link {
   display: inline-block;
 
