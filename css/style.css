@@ -445,12 +445,19 @@ img {
   margin-bottom: 20px;
 }
 
+.footer-address-list {
+  display: block;
+  width: 232px;
+}
+
 .footer-address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+
+  width: 232px;
 
   padding-bottom: 9px;
 }
