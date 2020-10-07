@@ -428,19 +428,21 @@ img {
   display: flex;
 }
 
-/* .left-footer {
-  margin-left: 150px;
-} */
-
 .footer .logo-link {
-  display: inline-block;
-
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-.footer-list {
-  margin-top: ;
+.logo-link-footer {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .footer-address {
@@ -449,6 +451,8 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+
+  padding-bottom: 9px;
 }
 
 .footer-info {
@@ -469,6 +473,9 @@ img {
   color: #ffffff;
   margin-right: 936px;
   margin-top: 72px;
+}
+.social-footer-link {
+  margin-left: 70px;
 }
 
 .footer-social-link {
