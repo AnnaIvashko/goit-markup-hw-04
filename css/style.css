@@ -381,15 +381,14 @@ img {
 .customer-list {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .customer-icon:not(:last-child) {
   margin-right: 26px;
 }
 
-.customer-icon:hover,
-.customer-icon:focus {
+.customer-link:hover,
+.customer-link:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
   cursor: pointer;
@@ -399,8 +398,8 @@ img {
   fill: #afb1b8;
 }
 
-.customer-icon {
-  display: inline-flex;
+.customer-link {
+  display: flex;
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
